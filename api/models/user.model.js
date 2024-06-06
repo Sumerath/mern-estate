@@ -18,6 +18,6 @@ const userSchema = new mongoose.Schema({
 //record time of creation of user and update of user. Can be used to sort
 }, { timestamps: true  }); 
 
-export const User = mongoose.model('User', userSchema);
+const User = mongoose.model('User', userSchema);
 
-//export default User;
+export default User;
